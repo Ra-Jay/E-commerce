@@ -1,0 +1,73 @@
+.header {
+    height: 30vh;
+
+    ul {
+        text-align: center;
+    }
+    .logo-icons {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: $base-margin 0;
+        position: relative;
+        width: 100%;
+
+        .icons-container{
+            position: absolute;
+            right: 70px;
+
+            button {
+                background: none;
+                border: none;
+                margin: 8px;
+            }
+
+            .icons {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .nav-item {
+        display: inline-block;
+        margin: 0 $base-margin - 10px;
+        position: relative;
+        
+        a, .shop-all {
+            background: none;
+            border: none;
+            color: $black-color;
+            cursor: pointer;
+            font-size: 1rem;
+            text-decoration: none;
+        }
+
+        .drop-down-icon {
+            margin-left: 5px;
+        }
+
+        .drop-down-container {
+            background-color: $white-color;
+            border: 0.2px solid rgb(0,0,0,0.2);
+            bottom: -160px;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+
+            .drop-down-item {
+                color: $black-color;
+                cursor: pointer;
+                margin: 10px 0;
+                text-align: left;
+            }
+            .drop-down-item:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .nav-item:focus, .nav-item:hover, .shop-all:hover {
+        text-decoration: underline;
+    }
+    
+}

@@ -1,0 +1,29 @@
+// Reset 
+@import 'cssReset';
+
+// Mixins
+@import 'mixins';
+
+// Variables
+@import 'variables';
+
+//Colors
+@import 'colors';
+
+// Components/Layouts
+@import '../../Layouts/navbar/Navbar';
+@import '../../Layouts/sidebar/Sidebar';
+@import '../../Layouts/newProduct/NewProduct';
+@import '../../Components/category_card/categories';
+@import '../../Components/company_card/companyDetails';
+@import '../../Layouts/footer/footer';
+@import '../../Components/search_bar/searchBar';
+@import '../../Layouts/product_display/productDisplay';
+
+// Pages
+@import '../../Pages/admin/Admin';
+@import '../../Pages/home/home';
+@import '../../Pages/productDetails/productDetails';
+@import '../../Pages/cart/cart';
+@import '../../Pages/check_out/checkOut';
+@import '../../Pages/all_products/allProduct';

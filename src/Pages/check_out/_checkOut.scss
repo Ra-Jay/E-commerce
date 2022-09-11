@@ -1,0 +1,60 @@
+.checkout-section {
+    display: flex;
+    height: 100vh;
+
+    .shipping-details {
+        border-right: 1px solid rgb(47, 47, 79, 0.2);
+        flex: 56%;
+
+        .header-section {
+
+
+            .checkout-nav {
+                ul {
+                    display: flex;
+                }
+
+                li {
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .contact-details {
+
+
+            .top-section {
+                display: flex;
+
+                a {
+                    color: $black-color;
+                    text-decoration: none;
+                }
+            }
+
+            .email {
+                border: 1px solid rgb(47, 47, 79, 0.5);
+                border-radius: 3px;
+                width: 20px;
+                height: 20px;
+            }
+
+            .lower-section {
+                display: flex;
+
+                input {
+                    border: 1px solid black;
+                    height: 20px;
+                    margin: 0;
+                    width: 40px;
+                }
+            }
+        }
+    }
+
+    .prod-amount {
+        flex: 44%;
+    }
+}

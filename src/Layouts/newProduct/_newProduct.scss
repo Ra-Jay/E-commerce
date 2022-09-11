@@ -1,0 +1,77 @@
+.newProduct {
+    border: 1px solid rgb(0,0,0,0.3);
+    flex: 80%;
+
+    h2 {
+        align-items: center;
+        background-color: $green-color;
+        color: $white-color;
+        display: flex;
+        height: 30px;
+        padding-left: 20px;
+    }
+
+    form {
+        align-items: center;
+        display: grid;
+        grid-row-gap: 20px;
+        grid-template-columns: 20% 70%;
+        margin: 20px;
+
+        .prod-category, .prod-sub-category {
+            width: 150px;
+        }
+        
+        .sub-categories {
+            display: flex;
+
+            .checkboxes {
+                align-items: center;
+                display: flex;
+                font-size: 0.9rem;
+                justify-content: center;
+                margin: 0 14px 0 0;
+
+                .checkbox {
+                    height: 10px;
+                    margin-left: 0;
+                    width: 10px;
+                }
+            }
+                
+        }
+            
+
+        input, select {
+            @include inputMargin;
+            height: 30px;
+        }
+
+        textarea {
+            @include inputMargin;
+            max-width: 100%;
+            min-height: 100px;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            @include inputMargin;
+        };
+
+        input#file {
+            border: none;
+            cursor: pointer;
+            height: 30px;
+            width: 200px;
+        }
+
+        .submit {
+            background-color: $green-color;
+            border: none;
+            border-radius: 5px;
+            color: $white-color;
+            cursor: pointer;
+            height: 30px;
+            width: 100px;
+        }
+    }
+}

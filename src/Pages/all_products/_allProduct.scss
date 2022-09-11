@@ -1,0 +1,61 @@
+.all-products-container {
+    text-align: center;
+
+    .featured-title {
+        height: 50px;
+    }
+
+    .filter-sort-bar {
+        align-items: center;
+        display: flex;
+        height: 50px;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 80%;
+
+        .filter-sort {
+            display: flex;
+
+            label {
+                font-size: 0.9rem;
+            }
+
+            .sort {
+                margin-left: 20px;
+            }
+
+            select {
+                border: none;
+                font-size: 1rem;
+                margin: 0 20px;
+                padding: 16px 0;
+                width: fit-content;
+                // width: 120px;
+            }
+
+            select:focus {
+                outline: 2px solid black;
+                border-radius: 2px;
+            }
+        }
+
+        
+
+        .product-quantity {
+            right: 0;
+        }
+    }
+
+    .no-products {
+        margin-top: 100px;
+    }
+
+    .all-products {
+        margin: 0 auto;
+        width: 85%; 
+    }
+}
+
+hr {
+    opacity: 0.3;
+}

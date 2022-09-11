@@ -1,0 +1,18 @@
+.home {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+
+    .view-all-btn {
+        background-color: $green-color;
+        border: 0;
+        border-radius: 3px;
+        color: $white-color;
+        cursor: pointer;
+        font-size: 0.9rem;
+        height: 40px;
+        margin: 80px 0 0 0;
+        width: 100px;
+    }
+
+}

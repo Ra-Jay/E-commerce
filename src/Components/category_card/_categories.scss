@@ -1,0 +1,55 @@
+.title {
+    font-size: 2rem;
+    margin: 50px 0;
+}
+
+.category-card {
+    margin: 100px 0;
+
+
+    .categories {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+        }
+    
+        .category-item {
+            align-items: center;
+            background-color: rgb(49, 5, 5);
+            opacity: 0.3;
+            color: $white-color;
+            display: flex;
+            font-size: 1.5rem;
+            height: 245px;
+            justify-content: center;
+            width: 245px;
+        }
+
+        .category-item:hover {
+            opacity: 0.5;
+        }
+
+        .edible {
+            background: url('../../Assets/Images/Replenish Multivitamin Gummies.png');
+            background-size: contain;
+        }
+
+        .topicals {
+            background: url('../../Assets/Images/Chiropractic Strength CBD Chiro Cream 1500mg 4oz Jar.png');
+            background-size: contain;
+        }
+
+        .cbd-tinctures {
+            background: url('../../Assets/Images/CBD Tinctures.png');
+            background-size: contain;
+        }
+
+        .pills{
+            background: url('../../Assets/Images/Premium Strength CBD Pressed Pills 1500mg (30ct).png');
+            background-size: contain;
+        }
+    }
+}

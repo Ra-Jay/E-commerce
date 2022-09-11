@@ -1,0 +1,163 @@
+.product-container {
+
+    .product-details {
+        display: flex;
+        margin: 50px auto;
+        width: 80%;
+
+        .image-section {
+            flex: 1;
+        }
+
+        .product-info {
+            flex: 1;
+
+            .product-name {
+                font-size: 2rem;
+                margin: 0 0 20px;
+            }
+
+            .mnp {
+                font-size: 1.2rem;
+                margin: 0 0 20px;
+            }
+
+            .product-price {
+                font-size: 1.3rem;
+                margin: 0 0 20px;
+            }
+
+            .quantity-container {
+                font-size: 0.9rem;
+                margin: 0 0 20px;
+
+                input {
+                    border: 1px solid $black-color;
+                    height: 40px;
+                    margin-top: 10px;
+                    padding: 10px 15px;
+                    width: 80px;
+                }
+            }
+
+            button {
+                cursor: pointer;
+                display: block;
+                height: 50px;
+                margin: 0 0 20px;
+                width: 70%;
+            }
+
+            .add-cart-btn {
+                background-color: $white-color;
+                border: 1px solid $green-color;
+                color: $green-color;
+                font-size: 0.9rem;
+                font-weight: bold;
+            }   
+
+            .buy-now-btn {
+                background-color: $green-color;
+                border: none;
+                color: $white-color;
+                font-size: 0.9rem;
+                font-weight: bold;
+            }
+
+            .product-description {
+                margin: 100px 0;
+            }
+        }
+    }
+
+    .sm-links {
+        display: flex;
+
+        li {
+            align-items: center;
+            border: 1px solid rgb(47, 47, 79, 0.3);
+            border-radius: 1px;
+            cursor: pointer;
+            display: flex;
+            height: 35px;
+            justify-content: center;
+            margin-right: 5px;
+            padding: 5px;
+            width: fit-content;
+
+            span {
+                font-size: 0.9rem;
+                margin: 0 8px;
+            }
+
+            .fb-icon {
+                color: $fb-logo;
+            }
+
+            .twitter-icon {
+                color: $twitter-logo;
+            }
+
+            .pinterest-icon {
+                color: $pinterest-logo;
+            }
+        }
+           
+    }
+
+    .related-section {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+                   
+            a {
+                text-decoration: none; 
+            }
+            .similar-prod {
+                color: $black-color;
+                margin: 0 20px;
+                text-align: left;
+
+                img {
+                    height: auto;
+                    width: 200px;
+                }
+
+            }
+        }    
+    }
+
+    .back-btn {
+        margin: 100px auto 50px;
+        width: 30%;
+    }
+
+    .back-home {
+        text-decoration: none;
+
+        .return-to-featured {
+            align-items: center;
+            border: 1px solid $green-color;
+            color: $green-color;
+            display: flex;
+            height: 40px;
+            justify-content: center;
+            margin: 0 auto;
+            padding: 0 10px;
+            width: fit-content;
+
+            .back-arrow {
+                color: $green-color;
+            }
+            
+            span {
+                margin: 0 10px 0 20px;
+            }
+        }
+    }
+        
+}
